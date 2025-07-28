@@ -51,7 +51,7 @@ static const uint8_t xinput_string_language[]    = { 0x09, 0x04 };
 static const uint8_t xinput_string_serial[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 static const uint8_t xinput_string_manfacturer[] = "\xa9Microsoft Corporation";
 static const uint8_t xinput_string_product[]     = "Controller";
-static uint8_t xinput_string_version[]     = "JDFPLAY1"; // Serial that is overridden by Pico ID
+static uint8_t xinput_string_version[]     = "JDFPLAYER1"; // Serial that is overridden by Pico ID
 static const uint8_t xinput_string_xsm3[]        = "Xbox Security Method 3, Version 1.00, \xa9 2005 Microsoft Corporation. All rights reserved.";
 
 static const uint8_t *xinput_string_descriptors[] __attribute__((unused)) =
